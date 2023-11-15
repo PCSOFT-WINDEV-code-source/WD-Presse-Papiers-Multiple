@@ -1,0 +1,907 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_VisuPressePapier
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_VisuPressePapier
+ identifier : 0x2c7fb17028f9c1ab
+ internal_properties : CAAAAAgAAACTlRhYj2bV3Y9VPYovI99BTSfcdWyK1o6Y+Oq2FU22rXpjDj99Tk9Kir0gRDDzG3TcwJNBBkzfb6oY3eCs8lZdzdlrHQyUjXriqH08U34OOiy0GqDbPGTzuvoN8HLt3W1PhJ1uob8rtEHSlMVUqY0BhedzXzT70Xdi51+4MtQGKnZqX6Deu4G+aAe2Pt2wWR6fIwXOMO6vKBLHYfnN6Kcb0o6NsMZLN8I4cwxxcuCQUdPJQzxnwSjcoc9ancVOjTNdnzBrunZayMohbNSXMIcnj+O4UwN0IEhC6PsqWp3qzoiPsxJ71a0k9fYRWhN8E/dr0IZlW089rav/g1uj+sgtiq/bH6/y0EPIv0hGkfUEiouHgkS/50JYYKECXEwqvJY1KUEioKFcUoxIz0WuvCefXx+h5AZn3XqeF3HyQ+zEb/iZqNQX7k7d3vS8kOH6AY4TaBovM9EyYk+q116S/CEnSE5O/85F5lwTb5nISZVvaDMN7hb1uQQ3vBf84mODD9tnJdPSGpy7XWGr21MfyqhXICVpoUq+fbpHJ6hGD/60gUMpkU5Ns4zl4l6erLOsvCQjWdA9ScLlapwsUuscaSlzMbGEgaIAOiPNkzMSM0Ga9WEHjp+40h1Y8TeGCVkz6b5k2+gxur6kTdvH6nRRm7nqmp02y1omGCmcFL6kzbjQ1T34zR5S+GO2jwpYU9Xgy2qwQCOt6O2UyZemGF0Ik+InZCAsKWZmdXZF9+8w0/JbSnwrZMb9NUFpW3zPOPmXlmHw2tkwulzIlbIhvIdhitrjpNZvVAvVig0VmkU4z7AFPT1Badc8An1GZ29NGc2tSxy/cSyWy70G
+ properties :
+  width : 486
+  height : 599
+  widthClient : 484
+  heightClient : 567
+ controls :
+  -
+    name : TABLE_VisuPressePapier
+    identifier : 0x2c7fcd7760d83d42
+    internal_properties : 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
+    properties :
+     x : 6
+     y : 37
+     width : 469
+     height : 434
+    columns :
+     -
+       name : COL_Presse_Papier
+       identifier : 0x2c84c0020c6cad24
+       internal_properties : CAAAAAgAAACrNX/FOngwct8ERaU7/bZIhYvtW/iowkPVAIto+p3ne4G8jSQstPcCV+OVGA7URjyl+hDpc25rlAAmQqSqm0sC/ofvFSEzq9PlF9P0inuO9T+i92z++JOaP135+goeFRxojFMxod8Fah6tQmNO2woddN08wpThHR4G9B56PozZCH3PzhaSzIRdNgK1KIrUcohRyFVU0zoAGuEt31ub/Nm3CmqVvCckjPNtC26fONwuS/wlHxR+8OESvfGhzEdDVr2u
+       type : 40
+       content :
+        internal_properties : CAAAAAgAAADhS0Z+/xrFU+7/VyX5484x4ZDMbjIbCNQBpSrg4UVMe0KTBJ5A2znVfMv75/XDKNwiHVaixh4fGUbYs9ZQAelgHgo171LuBEXJDxVSoM3o/IAF2n/HpcB0vXzWwKPjNzqoLlnRHCaOTEXLaZzxEFsetbFoxUtp5ZElxIe/B19V8Gj8XGvCUgm9VcW3w2X6e7LUzp1+uekhxea09DDcPP5MlIjJQ8McNl2US0tYGLP4nBqZxOsq4JtO/QmFZSQjUaAYVTVqECzQ7/B+TB0RKu9UFI+RCrXCDzDf6O27CLeJkns+BctoTrKSravWG9XQedlwRp6D7NFR0R8+b6tIt3aNYZUGBEbilG/aeq/RqwbepY1SBBzRWKB6TcMPHDr3G1Iv53tqTYMEdLO4ptVcGNKfJU6PRXorCSiakBRm/fw6IUCzyIRtgfGvp0+W7zPrKhJPtCd2pjSCQqcgDQbDdIK2i2qkuOvuCF186PNZRep+xohZ+axL9b3rIW8RfCmmYEEC7YYEZM2Irolmc1BlaGPdZaCdVU2arUvtj8iyU1gZWX26Q/jjA4RQ1U0piNva3e2B7mI=
+        properties : {}
+        controls :
+         -
+           name : LIB_Apercu
+           identifier : 0x2c84c0100cf8e386
+           internal_properties : CAAAAAgAAACQVCOChtaW7Ff9CJJVyy0p2gIC6fCVeThXWoWQAZRqz0sbJitWFMxn7vG83go1I7VKGtuCx5k7Zh3WYMIbey0KragOsYbJ9wGHDHruT7t4RgwNjswQYSsfEKfxzsIrmXzq8aVoy5gJ5JTaC1LC0qkuZJwxclWruOCDQmdsJIKXfMCtCdKhBgAQ5tSaVJvGABSOGzarSeUADYYKMrhdl8tIjFaYSXOQ+szTcbGTqNa/HAbFhIzM4YUpRb4TjvMxKrbXnXOIrvWhLdTremviY7DXwlBoB1DpVvplWLhe1WSEKlRu0cdIHBIT2Kw6dvopTlDqvJLehuA3Ao25OGOtv3M7Fbw1SWGW5uXyfCewKT9TpAjbQHh7XBmhbtBl4vgOi0gjAoIEP+FF2fnYU/QoqIOOQZcuH1wtKs/oeCWvX9bCo6bUYmE8iQuxOZvvYK+n9IC96cAd7hmu0rg=
+           properties :
+            x : 3
+            y : 3
+            width : 402
+            height : 61
+           type : 3
+           code_elements :
+            type_code : 2
+            p_codes : []
+         -
+           name : IMG_Apercu
+           identifier : 0x2c84c06c103a49cd
+           internal_properties : CAAAAAgAAAC/ZHR/3gQxkl9ozVr9mNUoUv/Nr0xLSID4bwn5XjE5gkPnw6tLxIja3L+RS6Ya0QoQJI8BqHZUGsOMHORpIcxOUhAlP15ElghKJiqFZHb9qHHvoE+uCUBMS4gvLo+53izAmxWx+1P0OEat37cyggP95raIJuOR6Tk+8EtPKUWvbAkkRxSYCO2tWjowri0KQiRU8C/IaVfFHoelLwsNtKi7824WT0R5X2AsPCF1OYCL2X0oy7Q6m6qaICHye5TPk1rJhWKPVQynIgX+JHTJJoTTAmKowoS+8Rwxgw6yaLWeV59XCQJIZ12+so7NO/KX3IXCgk3cvoEpQOs9Lk092M77AeropkzmWNKewDFgb2LVwOqQvmzKJuCbnTgkEKB2tqWm7vcolEcHjUndbpaJs4r15aehL8iY1t6Km3cobBFCSSUjwpaGBmgxdL4A9x3f61D9XpAmEN8Uy5HLwcXbGRudFtqpkcnV/upBNI8SeFNWUEamzZCPaS1TMOhneZHAyGxczPUYCkCYo0q/yXqXD3JwK1Kw41YUqpYUvUqfMc5udZm63QspYPBS9oBmmGTgUjbFKFFCzeIagIIxV6Ex8mWnNfn/868MCknCWMp5V2jZuNFBc2npKNp/jNUwWrth0CU3oJSwR/1rWGeatFhr+IFT5W7Qv0oBEBuS9ABAZ6zqkTW6atPOUukourInEbBNQAYeGxTwOBLpv2sLEDwqMW3qPJjFNfymmrhQ0fWbK07ckhr0lwutY5kvioT76adnQ3oaG9LmpmV5lrXl/44I9uJon32DZ0QUPlQZWXguQVyaMEq3ovq1sufKCtPnmLdwk9kMzV3GvyeNzV64XDYonOJtkqY=
+           properties :
+            x : 3
+            y : 3
+            width : 334
+            height : 61
+           type : 8
+           code_elements :
+            type_code : 8
+            p_codes : []
+        type : 40
+       controls : []
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 34
+        p_codes :
+         -
+           enabled : false
+         -
+           type : 234
+           enabled : false
+         -
+           type : 43
+           enabled : false
+         -
+           type : 42
+           enabled : false
+     -
+       name : COL_Suppr
+       identifier : 0x2c80ffd44bfbf984
+       internal_properties : CAAAAAgAAABtbsipQHMQnyFlO+RvgG1TsRFVF0ucDma5iN0gH3omJh1GY3t+LMGCqskAhF2vSzhTGPQIIsWBpfUGHq8dZF1wU2MQZbifKjnVRNfn4yhiLJCFj3ecRAj+l0Lu3L44t5wN3b6nytRrgpKZ23yzePSJPlL4IB2bSNmh/mKhAU1dLZBH1LoHGT83saxZBGTBLC3FNTN/3/uZwYjKAJhgOZkDS7TgjjRxad0nBLIlzjHLH1upH2ka37l5WEFe6mPF61QmEsTuOg==
+       type : 40
+       content :
+        internal_properties : CAAAAAgAAABNyBs1naQ0yVBE3nN+pBCGbwxgTb4Nu3BIPXLIuDIsikwaat4klS5iUxtSmXbkGKQmiVr9ZReZ8wCpHI9TIs+Ao6j/CKl/N7C5WIcIHlzM9TXeCfjrD2AvuCf+8mD3C2v/rsU9eh9GWuaOKA3/dxffwh9/Gq43bOJb6IqdBHdPfHmeT28obFDQBaTRfGSf5IlxIXUc2mGnvxkqdTls89smVqpfvzwpTaw/WdJiCuA4WYqeQNNdwic3ak3eWv/se3NgkzYEfzDjjRd4Uk3UbNDwJpSqf8UN8xnmbmA00uk9fqEf/ZMkG8C8D2CxWE7D0s1qU4Lc9OtgJvFSF/SNbkaEDTc4sjmqTEnJgddZqRS3WzxKYAAQN508V1rZH4jzuHPH4gjYaA==
+        properties : {}
+        controls :
+         -
+           name : BTN_Supprimer
+           identifier : 0x2c80fff94e8b88a4
+           internal_properties : CAAAAAgAAADU7w7AIaErc+acMAiGDlxVhJgIuHIDjbO2qgjC2QaNkIGZy/12joGmZodHIGppDjgYdWN+04Du6WkD/DNM8Srsz5wXrv1ikld4VqGH7HFD34XCc3Rss0o2J64vYgEZkNmsBfBZBM4Dnwo2PnydR27LXmhJiv6BMRRpT6GxGISwOHJJTPVTDiVYGp5JUm5+pkLaKmS7t1kKEtBR8BB0KzR9J6Cc/VJnYAvsRMSSFNMzDPUxrr/K2NVB2ThLEvEJSC7MJtH/cSsE5bdABuISl3PVURb9itzO3ecTeDeYCRf+5ZX02bc8VF1cXawXJCUrs036u1YuLs6yJ3GDjxvtwvIlDHlY6es7ZEu7VZxrcgNqD+zzv6SbNjtuqR30dQJcY4UF0iisa0jwQPtJkRR9rUWC0qH36eNdSoPxmtPST6sDh2N5B1tbBiKbJCKAGTQTh1vFfW5SsCoxGCJMbSqpbvS1ZXTzzLqvXw10W3BsMrYtTjYrGwep6atXCqzP2+3gCO1GfSkUAoO/ASLsQEhBtxf1DcRbyKT2C/b3dRViNUUZkOiNxf4p+l7N3HUcvgQvxbMZAerZ7tQEY2jBEEYNpqLN2KpN+msf5N1Lqh6iT4eUSNS4QM5Q/H9sPiOEsRdEf5RWr0mm5T1tPKTAF/29MCVGK0gP6CwTEtGhtghkdzQmXZ6PUR9lX8yclbHYRgFBnYAfDkwxZ67hMJ9qWoc3Tx97CpAoJTON3swkVGvi4FywYsRRy35410l2zjuLvel0sCT7QZjZuzNGxZ3iATw3XPev/IOOcVBkk7mZxuOqxTAH066uJlhDpSqNWbszs8jd+29f38g20yns1zn3EFQG6iXRAbBV3lvx1XSh+36JpST9qPFUT4TbYomvE6hkBnTNZNsHmc98ozRVxbwbuSOl1LQnkD2AzwHjlmnXIYEFUmTSqFq6jHW8LuF7ZD7cCQLTdumYInBRGXDH
+           properties :
+            y : 15
+            width : 32
+            height : 32
+           type : 4
+           code_elements :
+            type_code : 4
+            p_codes :
+             -
+               code : |1+
+                //1 : &Supprimer de l'historique
+                //2 : &Conserver la ligne
+                SELON Dialogue(<§?1C8108C300BADCF9§>)
+                	// &Supprimer de l'historique
+                	CAS 1
+                		TableauSupprimeLigne(gtabElemPressePapiers,TABLE_VisuPressePapier)
+                		TableSupprime(TABLE_VisuPressePapier)
+                	// &Conserver la ligne
+                	CAS 2
+                		// Rien à faire
+                FIN
+               type : 18
+             -
+               type : 161
+               enabled : false
+        type : 40
+       controls : []
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 34
+        p_codes :
+         -
+           enabled : false
+         -
+           type : 234
+           enabled : false
+         -
+           type : 43
+           enabled : false
+         -
+           type : 42
+           enabled : false
+    type : 9
+    controls : []
+    code_elements :
+     type_code : 9
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 263
+        enabled : false
+      -
+        type : 262
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : BTN_Vider_le_presse_papiers
+    identifier : 0x2c80c123097914f3
+    internal_properties : CAAAAAgAAAACqz68CAzUWwUQ+XqfrSPWxNRhJzOkAabgx1qAbPSTAPx45aqfUDFDtoOu5dQyNmo5rGI9pcPItYfmo4XWfYQLeGJsuOzm2GiSJq6WOuPxFJYZQsMY+N/MxaD0pba6RtUsk3FnA7wJhfMPZx+mDS4nJs2Tzrqkrqqbd7hG4CRJbQLrpUv5R90+MXlBNZxjIjjoYIBDSodBHD7l/ld6LreqOyLGU3njAFbY4wUX0vanPzpk66Edxfp+a3+kmNXsNRBD4igg7zS2pZOUVxlqBCoIynCOQwaVPMcQMWqBr1KGPf6MFStUWskFcyIzJMQK4FYNtPx+PMoMg5eV8n242+R4dSphOBREN1W32Y0Yooy1S4r6WDX8UFxQ8CP3vrTu+C001wUGtKhGbcnyy9zZNL3rCd6UQc4dqakJUPKXzIWi0hkYliX6XEW1Zos2+bdePxBgMpuv/McGktWywmvpkWT2gdo7p+7kEJKOC2oPwUB6ulT6Noqk9lGoPERWaFw86yN3cdEDjs9AnqMKCAIQwAgE7kwfnvuIxG0ZpcKB7chhWsfGrdSviA5Ap9sSk+HPW4uYr+AYV8ct+Ml2nWxNTVjdOJinzC/1qKuBVSQxL0rX9/dzgiWEU7doWNI+z3mqzhptEsRIYXIWymuShWME2V4ttcaQhj8fsgjP7e26UfOSrmedOcLJ5WAwxWlmeWD2yLPmWyVwidjfPKCLR6B/I8jB1+d0G64N0tVLaMXtl2gGVS48sYqYHNJLDt45PZQShDsxpqqgHlKdklejU7kXULQmnLFMTMJ+A/AJVqF9T/fmZ7qQpxwxliv6KIp59X/i4blX3RwrC2hxXJx3oJe87EcMGqs3ZeCXJia+5SAKoyGVNtQ/rhP4WVqYZ/0J4gJqAiyHxdu6k74q6dx21MnRV3NizlGSEalksA+YYYLYvwGmoT/zJ3HjCOzWRwXgvx2RFDNNWlT9+tB1OKjzjSgXD3U=
+    properties :
+     x : 6
+     y : 508
+     width : 154
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         //1 : &Vider le presse-papiers
+         //2 : &Annuler
+         SELON Dialogue(<§?1C87C35E005DCC36§>)
+         	// &Vider le presse-papiers
+         	CAS 1
+         		SI OpenClipboard(Handle()) ALORS
+         			EmptyClipboard()
+         			CloseClipboard()
+         			TableSupprimeTout(TABLE_VisuPressePapier)
+         			TableauSupprimeTout(gtabElemPressePapiers)
+         		FIN
+         	// &Annuler
+         	CAS 2
+         		//Rien à faire
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_RecupApercu
+    identifier : 0x2c84c6643e1898f6
+    internal_properties : CAAAAAgAAAAL/wRmBr5+N3uygFZMs1IlPshJyENOgdc/Mob0AErGCqelUQq7YcxAilD2MZuDPkhnAd3yNf2FekMjISVhLOyp5zsxZVtbT6xmX16pO7tgzn8vUNNcWHH4NUUOQ4XB0pARtzeuPnsqX4WmcoLP198EoIf0cNdZ9Hi1Mu7ZEkCkdKPyDW6LUD02v/YfYMbj6s9+oTPCPtuXp4WW97k4nh8PDiLzjiAu3b4wbKFJ9Mt7r7iudqNkMIweIL8Rauk8PVa2pg7+Dm8YDGSuAzQizalgUFQLPXa0Uov+tz2s3qqfOfBRXhCavnoRp07MyXT4RiGtZ+NgnErlN8NBnhegS9zwu2e9INJsVq1BygalX4pWainUWO/IRXCR5WvyCymu7Qjot4eEh2rvJ8yo4PyQAjt91LyI7tNdxfrhsWNUaYrYY04IFRzH7GnTNyAZc44v0xDW1MiuIo0CxriJ4swO4RXr1bPTi5jcTL5lH/cM/FfYK/2cVPjwf3rIIywRdkSPRhLOmwCw8VE7c0OP2BBUoLFp9D3p27V2PcIljvhn7Ue2xswXVykltN/usQL9zrLW9Kdq3IT9Kpb64KXLzBrwcEg+88AcyZyZhSGeTidjhQ/wjXIr4LK22u1NbhEvZY5Gt6aQTeSBcL1l7EQa6RDxDH+uGwElXhIiXW5D0kzD6CFLndOaavasJCmod/VOV0qDf8tIfElPIW7XfVBkztWJ6e3r82wYz254+yH7N5LjtRNRbauQXrmL2Ig1Lx3PfJNP2zW4SYHSuKnIyV9Om6dzox0poZmOVPwdW+iHZP+RGNs5wh+pistW2UlCMP9+PAljdzZNF1JtWrDQ8+Tyzco=
+    properties :
+     x : 494
+     y : -26
+     width : 68
+     height : 57
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : BTN_A_Propos
+    identifier : 0x2c850aaebc395e2d
+    internal_properties : CAAAAAgAAABAQrVd0z4/CxGZuJY89ZpuOe2jJdtr2EnfrsgKjDR4CPb4vRQro5oSWLEy/ILIqbUjXGZgka7zvo/i3gpG6K2uCOZKDITRmgC6xLsPs3sSPpNhVoVX3rbDdfvOmXZGRyXMrBYbuAc5cPJLP7092YOUMmv3S328+3kQYv0d31vYAGqjqdWE1ZciEdM47qrCBcK/Lf5vtvWM118iBFHIoSFzZUuDEfkiBAc3vwqIcPJc9Wv5uv0rPpPHAz7Iuq1vHW5NV6Aq0Iq0Mtup/LLTmC9qXUfBvNxOZxcuhXtX4PGx/CMDZOvZaxqJ1h20mX+fTUYgH2PbinME+etMJYikTRV689n20KgENfY/Ww43NuNXPgK4mN8b1H8LvgESPfJjF7t8SJvpAdmnlN5Hja9pi7IPj6CvxjNCs6EYd9QYkTzuaCwChRQRVIKE1/9h1X7y8QIPtShRPCR5Ii+4xepaH0HnrnBAlDv6x+08t+rxj/sSiAvRfXNHzZhvu+Eu+xkFOe1rsx8lx3nBmIp0hvS/FXjfSHsXlhxgMiwyEhWLuIxYsThm9f+F5JD48oZ/wUeNkwhNNHCIfpbb6SGajHS4yeYlcMh01LXH58SE161YfGFKzzBNy2zQiHSTKP80eOtAUOdzLfuuI3gsbTaD7mREyZ4NVzXdlp1vWQGPkbXcEmQ2y8Bqn8NA1E34T+s5w5/WBAkhuwGaG2nRMgOOis7/Ka+b4bLC7gVJZJrcRfyEqHXSR8IQzK1XAzQe0jBLrxrCzA7UQiBGStHNe+2DHMCYdyUCaeBYYEQ7vpJ0sl+6qJjCAH1zZUyzsekfDd1WtWnKjf2hvxuydUxcdjgFncPTqwFNM0CNpz1As4VJRD75674taJtyyaJfMOwGJwXxL/YTdf4AAcVjnCj8mMhHx2F3QT6OST9l83MGjNs30RCIzRmmx0fP
+    properties :
+     x : 6
+     y : 538
+     width : 154
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAB1RQpvAEaEj8vgQ07RoIxldRQ7OZjixk1hTIgtLFG/4CO+XBfAzQik8vPY1Sic9b1k+00riNbRar2MMxDD4Huy2zZolAJ+k2QRFycHcSpHnHz1Z3vLOt+UbUe1h+OcmwGnGwZ8iF4yqalFA3cbYltP5ZX7xjI=
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_WD_Presse_papiers_Multiple
+    identifier : 0x2c850acdbef5d9f4
+    internal_properties : CAAAAAgAAACCK94oFCtNPuRxREmbd0mpTVOEAWmWRgIME231jWTyc4hDUTYdhHC3m+2CbvFmfciYQad0HIQMxBemKGfeIV7mF8OPRb8F3z8HMbp+eIXkMFG6KC8b11OdDkSLYdo7xo7oV+KlYnZqW8hYAHUEfjPrgs+3H3xIo93e5m043QKwFJdT4BiX+GHhA0IHVsg+wPBg43iOS2racZzs7l0MP9R4G3swgmtyuZkctFO8bx4vpSrLzMexfV9B3Jz7JOrs/IEs9TUq7n/rNTl33FddUKqs6KqYaOWeruj4y7xeNhpj0Y/47kaSKWRq/EqYShIVDkH6j8/Y4pNAaXb491ex375ygMdkTMwEVz8YwzSA38H2HTqU/nLJwA8DHu0EOr+n9MixN0EJ6kLKDO5GWzN5oxx0139BrynsSsA/HdrZUyKdLLmEyrFFWj1+QVMwL7uvRQUCvb8RYOO2nPA56q/xzXvSV9wkLB1G
+    properties :
+     x : 6
+     y : 6
+     width : 469
+     height : 25
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Iconiser
+    identifier : 0x2c87c31308cca77c
+    internal_properties : CAAAAAgAAAD/pIKodAFULsCcJUNwf6CbcJK5KjKxITyVIcpMWpuR81akZ+t+9dJ11VIQaHGyvuIoiCcVLPgsDiJAilOJn8GuWmJ/jtwyNkM7Shy1r+jx7V8AwJe/8qqhPcpSMXsERtBdK1RqQ8ekOXxKhbxuJtARCOjjN6/58lu+TjxCQRKcNaFaQAaJT3YWuHCsO9X1z1qn7i6HWpdbw0M4FLdflWDakmEGYeKrHNZh9mijAbCyjxCAVw89qv9UtEcQhsKEoAt4NU2RXM+Ir9+bugJGvShDW88TqLlRJTC09FELO6oqRYP3YTlIT3MYyyXeV/HGRKMYksLmAZMYxv3+xdceKc/hqth7c8kLDHCVybzrpzHw5wvE1NK/OwV6x46I5cyBWiciyQcyPVheW2RKZw7cjSAoWpKtnTnmqknrLBcLWuVhABW9rPvq1gWpGBhRZlBiLGe21RD4pY8g7SXG19s03uZaYv5b6SOSEkOu3R+6guEPozwccE/mZus03llDM43S8C9lxI+RcIdklQcJ9jX3rVjdQzgSdfSoem+MftIcl9L0bCCQS4eDhuNAPBLy03xOop8l0alHTIYf5aPmx3Tu6mXAgHADhZuEDiRuCDHSJQ0gIunK5txSCvK6gX9HPMXH0AdTz76EnGhk/EPtjaABJQi8x9iyjuKO5sFa6IomxUufk+BbXBCAoJcKNsRmngQu8PIIxNY5e2FH/UyDvRntX8RUvVufOT/e/8wWTfILsIKUTDC5jbnQg411FP5FtLCliDxPJ1rKQMO7iPSiI6HkCDrRc7ofTZLOUH6qdLRovmpQOCm9jdWiTHREXo2HfqpZa9He9JLOexhsx7thYx3kqg5wLJtwtBC9tmrZIJJv/3eItYpO
+    properties :
+     x : 494
+     y : 37
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         MaFenêtre..Visible = Faux
+         MENU_MenuContextuel.OPT_IconiserRestaurer..Libellé = <§$0002§>
+         RepriseSaisie()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Copier_depuis_l_historique
+    identifier : 0x2c87c5003bcd299b
+    internal_properties : CAAAAAgAAABdQgKieAHdpXvgGgoIYxmFSnplmycXHXgnElaEkuYgJLX0xVJS49Pn/Npc700U8PEGaAkFMskLKFXlvTGpLGqOX0ylaSrxA1pBL8Er/tszj8aAmtv6CrIxFwq0rvL6MihPMTU1T8HeuGIMlhA2I7Nohb8Ix2izYS9spKRw0ovSxoZJGGChwtM0Fhf2npi2Cv5RZuDqwMMDEHcNWoLefuvgR63Xj2fxxVVUDfP1/maRmrXDwBS910U3YstYL49RgOfHlNJ2gRCLqrNSTxxHj2AqW4FXgJUUgGX3ovU+/uW8PwJaBotlqZEuUxPcbl9qZwdcGCfsAL5eGGbf4y/He9JPw6THWKvAMgVTwzKhqh42s8I1A98Fq+gd28mAEloaAUB09DZSD/G4GZVDRV24CKRCNBldyCsm4vobtVt1S6Ls+iph6o3hcaTX1Yin816NQaeSf9BiQ3T2TvBIbdo6eAZ361J4Sq+my6RF3XyMtGL+kQ5NkRVJaFDTgyCwdeuWQhoHS8ufrd8MX15JlXxs4bjc/VpoSbWAfUtR9pNIkT6UtCh//TSCvDSUAXrniA9cPSKuDpbrV6GA01yHedyXZMbDaHKs9YWddWfRlhGeCPJjiUMc2G0J2AM3I8Zoln5Jkv4dFYe9sjui4WPGyAsn9ZwcqW5SlQkFwTQq9uQJFL5FGNdNOIuAsN08f2Q9JO+VpgBzANz+pIt2MyffZ8EhrxZpnZPp1tAFWzvavZeRMc6bK32XsH32kRWKO5WVucAZGkJdvqNyfNvhM6I7imeS0EERDWGzRIoJ2G+cBrQSeg0TmjTA1gMerYM6jGgLMAp4SXyhj6vcnr12Ycr9LpDqBQvTkc3KlfhIoH8VvbQ3MvzvfZZOx6YV3T+AtaYxOJ0wMUb+VKrt8eWkMxR+IJZoNVhLIJbcM/qtA3b99mXKFQCjGJZOVIMMM9mj6y+E8bHHBic9OnJUOVx37p10TGKw5RAEozV6TSo67kfyGUwIhJybS1G88+TAnGm/JuFl60XWVTxq6etTE3Ii7fU+IW4bkH1Q5bGK/Atl4cpjVNw=
+    properties :
+     x : 6
+     y : 478
+     width : 154
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // La valeur renvoyée est le rang du fragment sélectionné dans l'historique
+         // Comme la table est affichée dans l'ordre croissant d'ancienneté des fragments, il faut faire le calcul du rang
+         nElementHistorique est un entier = TableOccurrence(TABLE_VisuPressePapier)-TABLE_VisuPressePapier+1
+         
+         RécupérerElement(nElementHistorique)
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x293d29ec82bd6b20
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ popup_menus :
+  -
+    name : MENU_MenuContextuel
+    identifier : 0x2c8512d10f4a25eb
+    internal_properties : CAAAAAgAAAA2L8VNtmSIZ70t+/y5F/s91fxWzUGBEtRrEYurf5Xad8CweN/dprbsX/wLYtgR3FmoTIKc8rPSy69JMwvGdzTgaxDswza7pq+msWDl4bpwqWreWnSv6hJe0eRb87BG0mqEefEl7YXFKlVPZOYou+hQLofQ0/+4m+tPajRT3+kQlBDMKg+9VX4Hj5cotGJPG7knjYHAOEZBCXVsWo8cWJSy9zb5LorqZWMLFD5kN5daTHlFuSCBl+tbr7navREQ1tgeOP+00/rmFRGtdVGbXIM6W4wutjfjM6KL3ZADDb4Ji7TBeBKlS8hRsQMZRxFHhD47GMaXkKF1UDyuftqqiE6tGfuJPu4lAxBB7ZVe9EXC424IRCvZSol0M2VWRM36
+    options :
+     -
+       name : OPT_IconiserRestaurer
+       identifier : 0x2c8512d10f4b25eb
+       internal_properties : CAAAAAgAAABUW1HbjvqrGHG4t66YMc6wAhkgRURfuRzjsxtPlkAhscHcWZYx+xagttY8sF4qaeFz1F43Gx93rzkFy1vNsHdnS/ncMwAEPWkPIUUdwkmheCjaroek7qs+nJDVxJqG9yRB7kGwlDnTbFtwj+Xsv3xcXL+NWNSaz2GWayQm4XuWjYIYsB1SnUiYZ7D1W42H5wpWDK8+8qkEvqrVvp4aDDj6ER6kQafIcEQSolYV3qy17gnU8xOPofJjGkRl0jLa9Bz+mxELAV+RAN3lYB7t1oPkmGLrqjaU3zAwyIXEqXJZDUgAq5a9fvSPb5FmFyZvOlMLmJSRaFJ1qZuNZMv0mnvHizTmZFEk3tQHmzRwKqm/JmLURtPuphAiIOnV4w1IgsewBdoUwzxWjrQRmTkJMh9efzwlT0/zRdQ=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            si MaFenêtre..Visible = Vrai ALORS
+            	MaFenêtre..Visible = faux
+            	MENU_MenuContextuel.OPT_IconiserRestaurer..Libellé = <§$0000§>
+            sinon
+            	MaFenêtre..Visible = Vrai
+            	MENU_MenuContextuel.OPT_IconiserRestaurer..Libellé = <§$0001§>
+            FIN
+            
+           type : 32
+     -
+       name : OPT_Séparateur
+       identifier : 0x2c8512ec14488f72
+       internal_properties : CAAAAAgAAABBiiNOQeSyosEHGF5TuyoSOoaqynWl8qmmSGPIjyD7YE9Zb4pNUgqSPTKYJec2W1uG2m0WnnXqgPElj1cTNSWqlGsvzywni+yS7oja2bd7aWIoSzdnm6uTaQS8VEus+PWP/sJp5Ja8+VcMlBbBX7i945JxPNQDvnkejxmmKbZ1eO1t5TYLf8O07QPLqST1OW7cdFmPjPW+JBIW035I0wVRQ9kPXN5A1VEUu1kXrhCNICt9BfaiVYuo6G5BEQow/SAoXbWzUG8Zh9+L4yW//8ShYaPFwblE5rr+Yv+S+5Pz7Q7SGIaq6RgimG0dL+nx5KkHd03L3BhUBANR6TXdaG9EoA3dHpfmygT9rRbx5FOHgjwBSZyruqcUwkV4akLpjUbVXZ18D5LVT0iCSe0q7lGm0xTvnb4l
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Quitter
+       identifier : 0x2c8512e6144774b7
+       internal_properties : CAAAAAgAAAB4hCPQon7t4Xbd4z7EpFHd+MyXM5p0Wm7AjYhkByeBaOyV5Oatufn1KZcdhVp9c7mM3tV5Kn2sQPGe6y5a+u+iOt9e+zR/AA3PFIV8UiOC7VX1S6b+Q7ly/EoyoNUipZ9sR4qKep7hRLgqSeubBLPrBw6tLY7NM5JB1xygM0tsGNJUwVhrODCnmNxnpEbuaDeZsgQ/1/Ung/xQM5j+pFoYoPsOdGWcBd1H9P+aqPbD5y7BJCbg0tL5kHBX779bbUasvKMm6hpaOQ8dQFGdgJjZivpoZ0tBCXadopIuhTQ3TQoJuUaZbqng9r9jk1qxqs/bx7KLJ/0JSHND1HyPbcUQdueOC8VB90/1i8kLYmbxbZ1+qcNywrmCfwTCES2J0xUW+5u3fm3sKHg0uHOCG/zBzFnV4g==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            ferme(FEN_VisuPressePapier)
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - fr-FR
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAC33qYQbPu9MalybXQ0hT9GQyTHbdyfjDSx1+/OkX9YWTua7XjJyFkQXTzWx4Kx9XyPjKhlSOONNSqCZORCNDICL/ik5cdti/haC8mzRzGIqw==
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAADvyf41vULoEiuwex5ACwhJx1H0AIhxs59bVldMpKH3n2WQRlQjrOFxXA//QFxqLQ7bLvKs4Dj0NnSrGq+mukjim7PWBaPOQjKaPNQuXCwSmOlrWn3gBUCxJk5XrrVT4dLDd0HTsGdOrqAy04g=
+     code : |1+
+      
+      // Ajout de la fenêtre dans la chaîne des observateurs du presse-papiers
+      gnHandleObservateurSuivant est un entier système
+      gnHandleObservateurSUivant = SetClipboardViewer(handle())
+      gbModificationPressePapiersEnCours est un booleen = faux
+      
+      local
+      
+      // Branchement des événements 
+      // WM_DRAWCLIPBOARD est reçu à chaque modification du presse-papiers
+      Evénement("SurChangementPressePapiers","*.",WM_DRAWCLIPBOARD)
+      // WM_CHANGECBCHAIN est reçu à chaque modification de la chaîne des observateurs du presse-papiers
+      Evénement("SurChangementChainePressePapiers","*.",WM_CHANGECBCHAIN)
+      // WM_HOTKEY est reçu à chaque appui sur une touche de raccourci
+      evenement("SurRaccourci","*.",WM_HOTKEY)
+      
+      // Ajout du raccourci CTRL+SHIFT+V global
+      RegisterHotKey(handle(),ID_RACCOURCI_COLLAGE_MULTIPLE,MOD_CONTROL+MOD_SHIFT,VK_V)
+      
+      // Initialise la table des éléments en ajoutant le contenu du presse-papiers
+      InitialisationElement()
+      
+      // Supprime l'icône dans le systray
+      SysIconeAjoute("presse-papiers.ico",MENU_MenuContextuel,"","SurSystray")
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     internal_properties : CAAAAAgAAAAnESZtuXpwQpuwSx5YIzAZX0G0oBgRc4fjXi9kVIGHlxVYzuz7BKlRLL+PQFRiFQ7j3iLsgFh4usBPthuKJuRGrweayaf6Bmb2kIC6wHhebO2/PhG0sVRFghJjammfLZaHqxWHRNMyhkhqm8A=
+     code : |1+
+      // Demande confirmation si l'application n'est pas minimisée
+      si MaFenêtre..visible = vrai alors
+      	//2 : Iconiser l'application
+      	//1 : Quitter l'application
+      	SELON Dialogue(<§?1C8100B6007C6AAE§>)
+      		// Iconiser l'application
+      		CAS 2
+      			mafenetre..visible = faux
+      			MENU_MenuContextuel.OPT_IconiserRestaurer..Libellé = <§$0002§>
+      			RepriseSaisie()
+      		// Quitter l'application
+      		CAS 1
+      			// Rien à faire
+      	FIN
+      fin
+      
+      // Retire la fenêtre de la chaîne des observateurs du presse-papiers
+      ChangeClipboardChain(handle(),gnHandleObservateurSuivant)
+      
+      // Annule la touche de raccourci
+      UnregisterHotkey(handle(),ID_RACCOURCI_COLLAGE_MULTIPLE)
+      
+      // Supprime l'icône du systray
+      SysIconeSupprime()
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : SurChangementChainePressePapiers
+     procedure_id : 2053561238749364047
+     type_code : 14
+     code : |1+
+      // Résumé : Traitement du message WM_CHANGECBCHAIN 
+      // Paramètres :
+      //	nMessage (entier système) : WM_CHANGECBCHAIN
+      //	nWParam (entier système) : handle de la fenêtre retirée de la chaîne des observateurs du presse-papiers
+      //	nLParam (entier système) : handle de la fenêtre suivante dans la chaîne des observateurs du presse-papiers
+      // Valeur de retour :
+      // 	entier : // 	Aucune
+      //
+      PROCEDURE SurChangementChainePressePapiers( nMessage est un entier système , nWParam est un entier système , nLParam est un entier système )
+      
+      dbgAssertion(nMessage=WM_CHANGECBCHAIN )
+      
+      // Si c'est la fenêtre suivante dans la chaîne qui est retirée, il faut se chaîner à son successeur
+      si nWParam=gnHandleObservateurSuivant ALORS
+      	gnHandleObservateurSuivant = nLParam
+      FIN
+      
+      // Passe le message à l'observateur suivant s'il existe
+      si gnHandleObservateurSuivant<>null alors
+      	SendMessage(gnHandleObservateurSuivant, nMessage, nWParam, nLParam)
+      FIN
+      
+      // Le message est traité, il faut retourner 0
+      renvoyer 0
+     type : 458752
+   -
+     name : SurChangementPressePapiers
+     procedure_id : 2053565984688282769
+     type_code : 14
+     code : |1+
+      // Résumé : Le contenu du presse-papiers a changé
+      // Paramètres :
+      //	nMessage (entier système) : WM_DRAWCLIPBOARD
+      //	nWParam (entier système) : non utilisé, doit être nul
+      //	nLParam (entier système) : non utilisé, doit être nul
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE SurChangementPressePapiers( nMessage est un entier système , nWParam est un entier système , nLParam est un entier système )
+      
+      dbgAssertion(nMessage=WM_DRAWCLIPBOARD)
+      
+      // Si ce n'est pas cette application qui est en train de modifier le presse-papiers
+      si gbModificationPressePapiersEnCours =faux alors
+      	// Il faut copier en local le contenu du presse-papiers
+      	CopieContenuPressePapier()
+      fin
+      
+      // Passage du message à la fenêtre suivante de la chaîne des observateurs du presse-papiers
+      si gnHandleObservateurSuivant<>null ALORS
+      	SendMessage(gnHandleObservateurSuivant,WM_DRAWCLIPBOARD,nWParam,nLParam)
+      FIN
+     type : 458752
+   -
+     name : CopieContenuPressePapier
+     internal_properties : CAAAAAgAAAA0j3DGSTD6ccbmS2Wq6svu88CUvMJ/ea70/mAVVaAiv5IHgZypFrQ1zOSG6HaS1dr4wMRFJrJh4wQgwS7MiLxx45SqkqQeo4Iags7uWMGC6XoHfUnxem/8mDVwqm9oKlNftsVH+N2hSlzfuoFojN2EIQcD1izBpLu0Obhi4VXrWjLsrhZTYsGcQJUHBbj4wSMlfplUz8Q=
+     procedure_id : 2053572916765671159
+     type_code : 14
+     code : |1+
+      // Résumé : Récupère le contenu du presse-papiers et l'ajoute à l'historique
+      //
+      PROCEDURE CopieContenuPressePapier()
+      
+      // Si le presse-papiers est vide, sort immédiatement
+      si CountClipboardFormats()=0 ALORS
+      	retour
+      FIN
+      
+      // Ouvre le presse-papiers
+      SI OpenClipboard(handle())=faux ALORS 
+      	retour
+      FIN
+      
+      bAjoutIHM est un booleen = faux
+      stElement est un ST_ELEM_PRESSEPAPIERS
+      nNbFormat est un entier = CountClipboardFormats()
+      stElement.nTypeApercu = APERCU_TEXTE
+      
+      // Parcourt les formats enregistrés dans le presse-papiers
+      nHandleDonnee est un entier système
+      nPtr est un entier système
+      nRangFormat est un entier = 1
+      nFormat est un entier = EnumClipboardFormats(0)
+      bApercuTrouvé est un booleen = faux
+      bFormatGere est un booleen
+      tantque nFormat<>0
+      	// Initialisation de la structure
+      	stFormat est un ST_ELEM_PRESSEPAPIERS_FORMAT
+      	stFormat.nFormat = nFormat
+      	bFormatGere = faux
+      	// Nom du format
+      	stFormat.sNomFormat = GetClipboardFormatName(stFormat.nFormat)
+      	
+      	// Récupération d'un handle global sur les données
+      	nHandleDonnee = GetClipboardData(nFormat)
+      	// Mappage dans l'espace mémoire du processus et lecture de la taille
+      	nPtr = GlobalLock(nHandleDonnee,stFormat.nTaille)
+      	
+      	// Selon le format trouvé
+      	selon nFormat
+      		cas CF_TEXT
+      			bFormatGere = vrai
+      		cas CF_DIB
+      			stElement.nTypeApercu = APERCU_IMAGE
+      			bFormatGere = vrai
+      		AUTRE CAS
+      			// Ce format n'est pas géré, il sera ignoré
+      	FIN
+      	
+      	// Libération du handle global
+      	GlobalUnlock(nHandleDonnee)
+      
+      	// Si le format est géré par l'application, il est ajouté dans le tableau
+      	si bFormatGere alors
+      		// Copie des données
+      		stFormat.bufContenu = Répète(Caract(0),stFormat.nTaille+1)
+      		Transfert(&stFormat.bufContenu,nPtr,stFormat.nTaille)
+      		stElement.bufApercu = stFormat.bufContenu
+      		// Ajout du format dans l'élément courant
+      		TableauAjoute(stElement.tabElemFormat,stFormat)
+      	fin
+      	
+      	// Format suivant
+      	nRangFormat++
+      	nFormat = EnumClipboardFormats(nFormat)
+      FIN
+      
+      // Referme le presse-papiers
+      CloseClipboard()
+      
+      // Si l'aperçu est une image, il faut la récupérer (le traitement est fait après la boucle car les fonctions de manipulations du presse-papiers ne peuvent
+      // pas être utilisées entre OpenClipboard et CloseClipboard
+      si stElement.nTypeApercu = APERCU_IMAGE ALORS
+      	IMG_RecupApercu..Largeur = PressePapierLargeur()
+      	IMG_RecupApercu..Hauteur = PressePapierHauteur()
+      	PressePapier(IMG_RecupApercu)
+      	stElement.bufApercu = dSauveImageJPEG(IMG_RecupApercu,enMémoire)
+      FIN
+      
+      // Ajoute l'élément dans la table des éléments
+      tableauajoute(gtabElemPressePapiers,stElement)
+      
+      // Si l'ajout dans la table n'a pas encore été fait, on ajoute un texte générique
+      si bAjoutIHM=Faux ALORS
+      	AjouteLigneDansTable(stElement)
+      FIN
+     type : 458752
+   -
+     name : SurRaccourci
+     internal_properties : CAAAAAgAAABFTqLhB+0MSUE3mwptLx8kruDDcyY7+GWDbuSilWbveYGTV4wCWHKle99e7czBuarkzGmZm77y3NIMvt8+VdT3NcueeZOkpCbBvrFdBNf919lprFJw0pNwr39ELJOrqmTlZAONn+2IpTlJ9TRHTBUEbklx1BWrI1J38ZUj3sUTohc9nXCcVUwYnqm1DbmuYJovbYC15ZCZqViHLU7fC7o+rhNV3ZEcrVAwA6OxERCQNIEw6iclWdc0p+4+rIFUwGFS0g==
+     procedure_id : 2053868861488079593
+     type_code : 14
+     code : |1+
+      // Résumé : Traitement du message WM_HOTKEY
+      // Paramètres :
+      //	nMessage (entier système) : WM_HOTKEY
+      //	nWParam (entier système) : identifiant de la hotkey (indiqué lors de l'appel à RegisterHotKey)
+      //	nLParam (entier système) : touches de modification (mot de poids faible), touche virtuelle (mot de poids fort)
+      //
+      PROCEDURE SurRaccourci( nMessage est un entier système , nWParam est un entier système , nLParam est un entier système <utile> )
+      
+      dbgAssertion(nMessage=WM_HOTKEY)
+      
+      si nWParam=ID_RACCOURCI_COLLAGE_MULTIPLE ALORS
+      	// Recherche la fenêtre qui a le caret
+      	stInfo est un GUITHREADINFO
+      	stInfo.nCbSize = Dimension(stInfo)
+      	si GetGUIThreadInfo(NULL,&stInfo) ALORS
+      		// On vérifie qu'il s'agit d'une application WINDEV
+      		// Note : d'autres applications supportent correctement l'envoi d'un message WM_PASTE mais pas toutes
+      		// dans le cadre de cet exemple, on se limite donc aux applications WINDEV
+      		si GetClassName(stInfo.nHwndActive)=CLASSE_FENETRE_WINDEV alors
+      			// Calcul la position de la popup à ouvrir
+      			nHwndCible est un entier système = stInfo.nHwndCaret
+      			stCoin est un STPOINT
+      			si stInfo.nHwndCaret=Null ALORS
+      				nHwndCible = stInfo.nHwndFocus
+      				GetWindowRect(stInfo.nHwndFocus,&stInfo.rcCaret)
+      			fin
+      			stCoin.x = stInfo.rcCaret.nLeft
+      			stCoin.y = stInfo.rcCaret.nTop
+      			// SI la position a été obtenue avec hwndCaret, elle est exprimée en coordonnées clientes de la fenêtre
+      			// il faut faire la conversion en coordonnées écran
+      			SI stInfo.nHwndCaret<>Null ALORS
+      				ClientToScreen(stInfo.nHwndCaret,&stCoin)		
+      			fin
+      			// Ouvre la popup de sélection du fragment à l'emplacement du caret
+      			nElementHistorique est un entier = Ouvre(FEN_PopupSelectionFragment,stCoin)
+      			si nElementHistorique<>-1 alors
+      				// Redonne le focus à la bonne fenêtre
+      				SysSetFocus(stInfo.nHwndActive)
+      				RécupérerElement(nElementHistorique)
+      				// Envoie un message de collage
+      				sendMessage(nHwndCible,WM_PASTE,0,0)
+      			fin
+      		fin
+      	FIN
+      FIN
+     type : 458752
+   -
+     name : RemplitPressePapier
+     procedure_id : 2053933840056941681
+     type_code : 14
+     code : |1-
+      // Résumé : Récupère un élément de l'historique et le place dans le presse-papiers du système
+      // Paramètres :
+      //	nElementHistorique (entier) : rang de l'élément à récupérer
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE RemplitPressePapier(nElementHistorique est un entier )
+      
+      dbgAssertion(nElementHistorique<=TableauOccurrence(gtabElemPressePapiers))
+      
+      gbModificationPressePapiersEnCours = vrai
+      
+      // Ouvre le presse-papiers
+      SI OpenClipboard(Handle())=Faux ALORS 
+      	RETOUR
+      FIN
+      
+      EmptyClipboard()
+      
+      // Pour chaque format enregistré
+      POUR TOUT stFormat DE gtabElemPressePapiers[nElementHistorique].tabElemFormat
+      	// Copie les informations dans une zone de mémoire globale
+      	nHMem est un entier système = GlobalAlloc(GMEM_MOVEABLE,stFormat.nTaille)
+      	si nHMem<>null ALORS
+      		nPtrMem est un entier système = GlobalLock(nHMem,stFormat.nTaille)
+      		si nPtrMem<>Null ALORS
+      			Transfert(nPtrMem,&stFormat.bufContenu,stFormat.nTaille)
+      			GlobalUnlock(nHMem)
+      			// Ajout dans le presse-papiers
+      			SetClipboardData(stFormat.nFormat,nHMem)	
+      		FIN
+      		// Libère le bloc de mémoire
+      		GlobalFree(nHMem)
+      	fin	
+      FIN
+      
+      // Referme le presse-papiers
+      CloseClipboard()
+      
+      fin:
+      gbModificationPressePapiersEnCours = faux
+     type : 458752
+   -
+     name : InitTable
+     procedure_id : 2053964480354867105
+     type_code : 14
+     code : |1-
+      // Résumé : Remplissage de la table à partir des éléments en mémoire
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE InitTable()
+      
+      TableSupprimeTout(TABLE_VisuPressePapier)
+      
+      POUR TOUT stElement DE gtabElemPressePapiers
+      	AjouteLigneDansTable(stElement)
+      FIN
+     type : 458752
+   -
+     name : InitialisationElement
+     procedure_id : 2053970643632996172
+     type_code : 14
+     code : |1-
+      // Résumé : Initialise la table des éléments en ajoutant le contenu du presse-papiers  sauf s'il est déjà présent, par exemple en cas de re-lancement de l'application
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE InitialisationElement()
+      
+      // Initialise la table
+      InitTable()
+      
+      // A l'initialisation, il faut copier le contenu courant du presse-papiers (s'il existe)
+      CopieContenuPressePapier()
+      
+      // Si les deux derniers éléments sont identiques, supprime le dernier
+      SI TableauOccurrence(gtabElemPressePapiers)>1 ALORS
+      	nDernier est un entier = TableauOccurrence(gtabElemPressePapiers)
+      	nAvantDernier est un entier = nDernier-1
+      	SI gtabElemPressePapiers[nDernier].bufApercu = gtabElemPressePapiers[nAvantDernier].bufApercu ALORS
+      		SI TableauOccurrence(gtabElemPressePapiers[nDernier].tabElemFormat) = TableauOccurrence(gtabElemPressePapiers[nAvantDernier].tabElemFormat) ALORS
+      			POUR n=1 _a_ TableauOccurrence(gtabElemPressePapiers[nDernier].tabElemFormat)
+      				SI gtabElemPressePapiers[nDernier].tabElemFormat[n] <> gtabElemPressePapiers[nDernier].tabElemFormat[n] ALORS
+      					RETOUR
+      				FIN
+      			FIN
+      			// Supprime le dernier élément du tableau
+      			TableauSupprimeLigne(gtabElemPressePapiers,TableauOccurrence(gtabElemPressePapiers))
+      			// Et le premier de la table
+      			TableSupprime(TABLE_VisuPressePapier,1)
+      		FIN	
+      	FIN
+      FIN
+     type : 458752
+   -
+     name : AjouteLigneDansTable
+     procedure_id : 2054981412635162872
+     type_code : 14
+     code : |1-
+      // Résumé : Ajoute un élément d'historique dans la table de visualisation
+      // Paramètres :
+      //	stElement : Nouvel élément d'historique
+      //
+      PROCEDURE AjouteLigneDansTable(stElement)
+      
+      TableInsèreLigne(TABLE_VisuPressePapier,1,stElement.bufApercu)
+      SELON stElement.nTypeApercu
+      	CAS APERCU_TEXTE
+      		sTexte est une chaine = stElement.bufApercu
+      		TABLE_VisuPressePapier[1].LIB_Apercu = sTexte
+      		TABLE_VisuPressePapier[1].LIB_Apercu..Visible = Vrai
+      		TABLE_VisuPressePapier[1].IMG_Apercu..Visible = Faux
+      	CAS APERCU_IMAGE
+      		TABLE_VisuPressePapier[1].IMG_Apercu = stElement.bufApercu
+      		TABLE_VisuPressePapier[1].LIB_Apercu..Visible = Faux
+      		TABLE_VisuPressePapier[1].IMG_Apercu..Visible = Vrai
+      	AUTRE CAS
+      FIN
+     type : 458752
+   -
+     name : SurSystray
+     internal_properties : CAAAAAgAAACo+qxGF5+Pv9lcwCJF6Osf6mTp3kS7g/PHKFqJbSGE0C4Vq6KcN6uRnY1TOtvC8OrHpJKlma6VnRAAJ3CXzIzmdenv5WK7tA8LPumJ8eRc3j52dUcMW8klXJ2iv9znzObV4Xk9z+jdWcoBRsqLqUkJ85TxjkkqxJY4YQqnhHZD/5qZ6qAWnZs5TA0BEGnLglmV2Rg1DQ==
+     procedure_id : 2055827100289708541
+     type_code : 14
+     code : |1-
+      // Résumé : Traitement des actions sur l'icône du systray
+      // Paramètres :
+      //	nOperation (entier) : Type d'opération réalisée par l'utilisateur
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE SurSystray( nOperation est un entier )
+      
+      si nOperation=WM_LBUTTONDBLCLK ALORS
+      	MaFenêtre..Visible = vrai
+      	MENU_MenuContextuel.OPT_IconiserRestaurer..Libellé = <§$0001§>
+      	RepriseSaisie()
+      FIN
+     type : 458752
+   -
+     name : RécupérerElement
+     procedure_id : 2055828633598043160
+     type_code : 14
+     code : |1-
+      // Résumé : Déplace un élément au bas du tableau de l'historique et le recopie dans le presse-papiers du système
+      // Paramètres :
+      // 	nElementHistorique : rang de l'élément à récupérer 
+      //
+      PROCEDURE RécupérerElement(nElementHistorique)
+      
+      si gtabElemPressePapiers..Occurrence=0 alors retour
+      
+      // Place l'élément sélectionné au bas du tableau de l'historique si nécessaire
+      SI nElementHistorique<>TableauOccurrence(gtabElemPressePapiers) ALORS
+      	TableauDéplaceLigne(gtabElemPressePapiers,nElementHistorique,TableauOccurrence(gtabElemPressePapiers),tdDéplace)
+      	TableDéplaceLigne(TABLE_VisuPressePapier,TableOccurrence(TABLE_VisuPressePapier)-nElementHistorique+1,1,tdDéplace)
+      	// Récupère l'élément de l'historique
+      	RemplitPressePapier(TableauOccurrence(gtabElemPressePapiers))
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1c7fb15a00246f07
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      fr-FR : Restaurer
+     index : 0
+   -
+     text :
+      fr-FR : Iconiser
+     index : 1
+   -
+     text :
+      fr-FR : Restaurer
+     index : 2
+ dialogs :
+  -
+    identifier : 0x1c8100b6007c6aae
+    internal_properties : CAAAAAgAAADlZmXG/xNXKwxvV5tu8GET2lSyAzxbXni9SnMZ21PP4/R7SH8=
+    label :
+     fr-FR : "ATTENTION : Si vous fermez l'application \"WD Presse-Papiers Multiple\", le raccourci de collage avancé sera désactivé.\r\nL'historique sera sauvegardé jusqu'au prochain lancement de l'application.\r\n"
+    image_type : 3
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : "&Iconiser l'application"
+       image : {}
+       value : 2
+     -
+       label :
+        fr-FR : "&Quitter l'application"
+       image : {}
+       value : 1
+  -
+    identifier : 0x1c8108c300badcf9
+    internal_properties : CAAAAAgAAADLb/QG7qHVNVstRudplatKBViZdlKEdhPMl4J7qaK1nciTYbTTj3xdNo9PUgqbEWzwu4h1i1feuYWVMEvgQO5o4uMhbvcV6BGyDCamzg==
+    label :
+     fr-FR : "Êtes vous sûr de vouloir supprimer cette ligne d'historique du presse-papiers ?\r\nCette action est irréversible.\r\n"
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : "&Supprimer de l'historique"
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : "&Conserver la ligne"
+       image : {}
+       value : 2
+  -
+    identifier : 0x1c87c35e005dcc36
+    internal_properties : CAAAAAgAAAC5sep6k+mHHP2QPBI4ly/SArqlGHHuNMaJkOxSbs1GeKjzGYzKMKo7HB21vrWJ5CupIYzRQngDH0jsFVPEgXGdEHvSeuW1Eg==
+    label :
+     fr-FR : Tout l'historique du presse-papiers ainsi que son contenu actuel vont être supprimés.
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : "&Vider le presse-papiers"
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : "&Annuler"
+       image : {}
+       value : 2
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,259 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pClipboardAPI
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1c7fb1aa0027a68d
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : ChangeClipboardChain
+     procedure_id : 2053555474903090572
+     type_code : 15
+     code : |1+
+      // Résumé : Retire une fenêtre de la chaîne des observateurs du presse-papiers
+      // Paramètres :
+      //	nWndRemove (entier système) : Handle de la fenêtre à retirer (c'est le handle passé à la fonction SetClipboardViewer)
+      //	nWndNewNext (entier système) : Handle de la nouvelle fenêtre qui suit la fenêtre retirée de la chaîne (c'est généralement le handle renvoyé par l'appel à SetClipboardViewer)
+      // Valeur de retour :
+      // 	booleen : résultat du passage du message WM_CHANGECBCHAIN à nWndNewNext (généralement faux sauf si il n'y a qu'une seule fenêtre dans la chaîne des observateurs)
+      //
+      PROCEDURE ChangeClipboardChain( nWndRemove est un entier systeme , nWndNewNext est un entier système)
+      
+      renvoyer api(USERDLL , "ChangeClipboardChain" , nWndRemove , nWndNewNext )
+      
+     type : 458752
+   -
+     name : SetClipboardViewer
+     procedure_id : 2053558644589037769
+     type_code : 15
+     code : |1+
+      // Résumé : Ajoute une fenêtre dans la chaîne des observateurs du presse-papiers
+      // Paramètres :
+      //	nWndNewViewer (entier système) : Handle de la fenêtre à ajouter
+      // Valeur de retour :
+      // 	entier système : Handle de la fenêtre suivante dans la chaîne. Ce handle doit être repassé lors de l'appel à ChangeClipboardChain
+      //
+      PROCEDURE SetClipboardViewer( nWndNewViewer est un entier système )
+      
+      renvoyer api(USERDLL,"SetClipboardViewer",nWndNewViewer)
+     type : 458752
+   -
+     name : OpenClipboard
+     procedure_id : 2053570790756757308
+     type_code : 15
+     code : |1+
+      // Résumé : Ouvre le presse-papiers et le bloque en écriture pour les autres applications
+      // Paramètres :
+      //	nWndNewOwner (entier système) : Handle de la fenêtre prenant possession du presse-papiers
+      // Valeur de retour :
+      //	 variant : Vrai si la fonction a réussi, faux sinon (GetLastError retourne une info d'erreur détaillée)
+      //
+      PROCEDURE OpenClipboard( nWndNewOwner est un entier système )
+      
+      renvoyer api(USERDLL,"OpenClipboard",nWndNewOwner)
+     type : 458752
+   -
+     name : CloseClipboard
+     procedure_id : 2053571357692506531
+     type_code : 15
+     code : |1-
+      // Résumé : Referme le presse-papiers
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	variant : Vrai si la fonction a réussi, faux sinon (GetLastError retourne une info d'erreur détaillée)
+      //
+      PROCEDURE CloseClipboard()
+      
+      renvoyer api(USERDLL,"CloseClipboard")
+     type : 458752
+   -
+     name : EnumClipboardFormats
+     procedure_id : 2053573260363134229
+     type_code : 15
+     code : |1+
+      // Résumé : Enumère les formats contenus dans le presse-papiers
+      // Paramètres :
+      //	nFormat (entier) : format en cours (0 pour initier le parcours)
+      // Valeur de retour :
+      // 	entier : format suivant
+      //
+      PROCEDURE EnumClipboardFormats( nFormat est un entier )
+      
+      renvoyer api(USERDLL,"EnumClipboardFormats",nFormat)
+     type : 458752
+   -
+     name : GetClipboardData
+     procedure_id : 2053576438639017738
+     type_code : 15
+     code : |1+
+      // Résumé : Retourne un handle sur les données d'un certain format contenues dans le presse-papiers
+      // Paramètres :
+      //	nFormat (entier) : format demandé
+      // Valeur de retour :
+      // 	variant : // 	Aucune
+      //
+      PROCEDURE GetClipboardData( nFormat est un entier )
+      
+      renvoyer api(USERDLL,"GetClipboardData",nFormat)
+      
+      
+     type : 458752
+   -
+     name : GetClipboardFormatName
+     internal_properties : CAAAAAgAAADu/kqCvvr8AVVUDfs84zO73x/8dBiC4m50kArkm3I/IK1WOg+KFGCLmGwyyACYZth1ke7Sp9O8va4v1tDyVsQ2aHVW6qaYEOJZA5OEjsNR+bgyp0b/exyCymlZTHDbaAYgvsIBeHgry8/dxNZibGSP2AcInKDEbJRJ5Qj/oV8Au69HOKKxrK8Swq/GKSia3Q8dnzXDhLV6Ni0p25SKeQrfRcn7Bpvth+We31pFGCL5b8g4I3JHpbdTC1Xk7JSUDfZp
+     procedure_id : 2053591166082421653
+     type_code : 15
+     code : |1-
+      // Résumé : Retourne le nom d'un format de données dans le presse-papiers (si celui-ci est connu)
+      // Paramètres :
+      //	nFormat (entier) : identifiant du format
+      // Valeur de retour :
+      // 	Type indéterminé : nom du format s'il est connu, chaîne vide sinon
+      //
+      PROCEDURE GetClipboardFormatName( nFormat est un entier )
+      
+      sNomFormat est une chaine asciiz sur 260
+      api(USERDLL,"GetClipboardFormatNameA",nFormat,&sNomFormat,260)
+      
+      si sNomFormat="" ALORS
+      	selon nFormat
+      		cas 2 	// CF_BITMAP
+      			renvoyer <§@1c7fb1aa0026a68d0000§>
+      		cas 8, 17		 // CF_DIB, CF_DIBV5
+      			renvoyer <§@1c7fb1aa0026a68d0001§>
+      		cas 5 // CF_DIF
+      			renvoyer <§@1c7fb1aa0026a68d0002§>
+      		cas 0x0082 // CF_DSPBITMAP
+      			renvoyer <§@1c7fb1aa0026a68d0003§>
+      		cas 14, 3  // CF_ENHMETAFILE, CF_METAFILEPICT
+      			renvoyer <§@1c7fb1aa0026a68d0004§>
+      		cas 7 // CF_OEMTEXT
+      			renvoyer <§@1c7fb1aa0026a68d0005§>
+      		cas 11, 12  // CF_RIFF, CF_WAVE
+      			renvoyer <§@1c7fb1aa0026a68d0006§>
+      		cas 4 // CF_SYLK
+      			renvoyer <§@1c7fb1aa0026a68d0007§>
+      		cas 1 // CF_TEXT
+      			renvoyer <§@1c7fb1aa0026a68d0008§>
+      		cas 6 // CF_TIFF
+      			renvoyer <§@1c7fb1aa0026a68d0009§>
+      		cas 13 // CF_UNICODETEXT
+      			renvoyer <§@1c7fb1aa0026a68d000a§>
+      	FIN
+      fin
+      
+      renvoyer sNomFormat
+     type : 458752
+   -
+     name : EmptyClipboard
+     procedure_id : 2053854005193857825
+     type_code : 15
+     code : |1+
+      // Résumé : Vide le presse-papiers (celui-ci doit avoir été ouvert auparavant)
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE EmptyClipboard()
+      
+      api(USERDLL,"EmptyClipboard")
+     type : 458752
+   -
+     name : CountClipboardFormats
+     procedure_id : 2053854928611845513
+     type_code : 15
+     code : |1+
+      // Résumé : Retourne le nombre de formats dans le presse-papiers
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	entier : nombre de format
+      //
+      PROCEDURE CountClipboardFormats()
+      
+      renvoyer api(USERDLL,"CountClipboardFormats")
+     type : 458752
+   -
+     name : SetClipboardData
+     procedure_id : 2053936648966272708
+     type_code : 15
+     code : |1+
+      // Résumé : Ajoute des données dans le presse-papiers
+      // Paramètres :
+      //	nFormat (entier) : <indiquez ici le rôle de nFormat>
+      //	nHMem (entier système) : <indiquez ici le rôle de nHMem>
+      // Valeur de retour :
+      // 	entier système : handle vers les données ajoutées, NULL en cas d'erreur
+      //
+      PROCEDURE SetClipboardData( nFormat est un entier , nHMem est un entier systeme )
+      
+      renvoyer api(USERDLL,"SetClipboardData",nFormat,nHMem)
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_ProcéduresGlobales1
+resources :
+ string_res :
+  identifier : 0x1c7fb1aa0026a68d
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : Bitmap
+     index : 0
+   -
+     text :
+      fr-FR : DIB (Device Independant Bitmap)
+     index : 1
+   -
+     text :
+      fr-FR : Software Arts Data Interchange Format
+     index : 2
+   -
+     text :
+      fr-FR : Bitmap à format privé
+     index : 3
+   -
+     text :
+      fr-FR : Metafile
+     index : 4
+   -
+     text :
+      fr-FR : Texte OEM
+     index : 5
+   -
+     text :
+      fr-FR : Son
+     index : 6
+   -
+     text :
+      fr-FR : Lien symbolique
+     index : 7
+   -
+     text :
+      fr-FR : Texte
+     index : 8
+   -
+     text :
+      fr-FR : Image TIFF (Tagged-image file format)
+     index : 9
+   -
+     text :
+      fr-FR : Texte UNICODE
+     index : 10
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

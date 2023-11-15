@@ -1,0 +1,191 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Presse-Papiers Multiple
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : Gestion d'un presse-papiers à plusieurs niveaux.
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD Presse Papier Multiple
+    internal_properties : CAAAAAgAAAAFhe6BrRHuHd/DBZlTo77ZHhAXGO4M1NpklJmko4QRrW8JT9GACLVVOKjHtZvTk0RzWD9ryM+0xiC4I6gfMkeVNvWSh1bOYYmvdZqHefPB9n5MkUbULA+IzY28mWlIwfN/KAPHelWQsqrmTSJd4Wst7tNxcrt0oJar55LPe9Z1IG4x+fXVHEUtsHR2m05kNyznN0m7WeMQURy4L0PVtBdOCv828ylltg1zpjcfU26dizIcvTLkx2nx3ZtNjqSX0ofzBtjWGsPKvSVGV08XNJ7sPh5FLGgilypQWuKKvLhHYu5n8Yzi322pLp/O06NPPKaGp/ZQgvXOtEVOWFtcBNj534xnZ6nxARmCwWXW/UJeAJ3K9YxHKNQA7jZ6BExEbXlIQCchgaubUKKd2foCoWicwWTZtJZlKen6vFxkn4iljpizRx9440YtgKLM8AxEajGOoMOGZTxz8Hg0wejvFrWzsyI6LIWGVZN+aSVN2+agWVCB70xfZrAFP3LuM/MUiiEAP1WfcSUpCwkDbPosKV/5N1Vom8RwZHsSeP9y16/OLyr7zL8EZ4BHjuHo35KIi6L+GSHWV9xMPuySPtxXE8x9U6vjJFBFYOpEL0wOg0+K6qTiMF2tPj8oZqCWVLK7imudo4fZbJOKVFx/ftKUyuJRdpAdHoJbLFVWPKBHOF2iFiCoAHIREcmvBAbVWGlFKWhdafSraJ4Mg+oWCF1NS49vfG4XEhrhHSiMuX7gJCXrBP7sYOnIf4hYC/xMingJiUbNgmMzhlfSfDtBc2kKumpAF4hvVX1Zrq+yowCw+/4qA4xQc6+sRqcvnYrBc48VXzAD9Hrk+S0MFoettv97Rt4uVaVrxriWZtOlxB7jUx6+6E3OKr8/n/qr6dwmLy4y4U+ZuEeo3hDHaoNsjjuEGE0TOIXIyGUCu8niOs1gNKcYIOlPCkc22QkJQlpp7SgPsNpB3WkFX9A8uzwfOGYk89RwysmoEe0HqoZYD8j0hEMHw1DJgmcmhwelMAYTGCcIHXpOBnDGSYVcepw7fHIvIy5Hkqm0u/bqglncJ3RkjvMxi87PsLQuWdvQXWQrjlRD3F1eVnqYi7f1AvatiEyKAgFSNS3r+tqVkaoSQ/eIIQZsYrKf6kFT5SXRoWzLVXijh6FwJpEPvcoUjCa8IA7AOQ4yUUBfZIgGl3kkjlTGX5FiEzpOxPCif2xzKXo8T8iQMyb6XxFzwAKSc5CbQnUuhO/Rt6//FbM7Nm100fT8zHP6jJAEg7sODB9NjWFuRK2trv+eJuX7zXl0i+aNtpjG3YlaJxLSjA2+GGSz5LFwMghrgfIEAcrJkH2BVKFRgr8/TJI2TTPV64TNPP9oRL4QDU57cQIIcF7w2N+j0AHUrZOqMHtA1u6EPeYJSA7K4sOjL9lNJlfNGDtAVGuoHsiOSS9OLDL/FR80XOQoNRueyvhC4B4o+NslopHEOgoCvoleWOlTc8xUrxCepkypwBkgSM5TvBF6GzuGnZDkQmAUa6yiLEViBGU+pA/6NsEHpicrsyymvnXnRARRXWeX55q1mKxbu42WN2OxUdmnYOeTz3gZMTi16ULgbMq96+KdsUVTnqnK8DXoX0tao1lEcyFkCRGRMV09joOkeDGoR2ytqBOTYJsPDjWtWZlQARDC03siWLFw8RA39DZw3sLpyLpsc9lwiCc17Xqpje552yJmmWW+BVKF9zEQ1JlMvR3zGsN+M26Z3U/i1n3XpfusEqTOZZkR7dZpZr6lmP6xgZ+S3d6JYaYpJQRQ+gHGxdaR6RQiVD6tg9rCDQK2F1+YUaCUnSFudlJUdbZeE0IO2k3LoHwN7vbBFCslqPRo36eLZK1ADVCzfXfnI6GrMNeJTxELX6TytXduP31SGQZM9wWOJyIcP5Hjd+dmlsLeBijj/h2549vgrTHoVTJhG2VGoIA03e2AfaWknFbErdkAnqq0gfZ2skKUCvKLb7dEfqDG8JSG2jedbnFJFHgaMFmB8tmgVhNvt2Gs8SzMckOQB5mqZd8sP6vGimqYB2Wxzh+pnuFbgacIigJyNscg5UMSsXXkRYhXLE535DI6zxhHTVzbCAB4Nz5vkFvmgFBxyzCYHZ7ZOuDdwqgqKvd7qee5FN0dy/svhhb1tc8Z6TxPIKCsXIJUM298WUbxH9utnbYUhXyxak7RX1CrWoVVpTuS0ohh1xjsg0u1yJYY4ltmZ00y0fQj7tS8eOU0vKs10dodquNITF0ZsZe4vwaIaRYckrSKN1Fm1xdZqZkkug/gjSSrwxi16vkmChadLmDE1YSTxVuBTpuyFfXOFOn0RXkmq/rZtazVg2jKHqPCXfGzz7/ZGi5hzL4s1QzArIPF06gzHAizp3JBJqKk41C6/S3QvQaMnSUpRz6JOtN+98pM4mbvxXkGgdXLoYIGgw4Rzb0IhXrSL1PptBcTaMGt8tcIZiKvMufMhEDJPTjW6QqRT2R1qj6jVgieIdBfmsZLhW+otFkt81xrqGt6noHeph1bbQ8+SuYdYeGYLGFpIRkG4oib+GWHWCovWsnIx8EEHDWqC+0rqzVZhGemv2hG14FBcWpgk2CN+TZac6Z22gKDInP5dVpH9KIfMXQkSVADnLI1x23+pBCSQgX0fog16ZDSI6nou61WBP+mrUxrmaKSb3NFUPtLArL2Wbq5OVBeUbmUY5aJw3270zXiFjilij0p9ir7jMsJrWkv2I655l1L2Fwg9/ru7ZkXnlWxmtdHSS1HwtFwQOAYIKUb/J7gierruIFeF7NewD2kQ/CeH8atne7vX2C2PlebZq57jUREp2Ex5ZWmI8guDEbLUlSKDofS9GYSO7vGj4wl6K748b7bIilWyA0bxCw2IWMDf9QY9L6aTeqDxFUVw9teHWOPWmq/0WuTAuV6ShiR2ssUtaBI4TjSK5KCi31Xko3NseRd+po4FIFW5atvaitS8MgNmMZZyLywswO/324RhIHqJbHwCItsjv3w2a+P00H2iflJxmFttMFvh5INFG1+DWvcF+dYSwk3+blv0cEkERV1XFp6BqCG1dbZTSnEZGHYLsehskpATCQWcBVkK9Wmydl8/xkx1EBcM+/1UwkTe/4AxDdAPFNT9Ffua7cdaRBHdOteH+CYRGNQuo444C7UYxtPDBYm+bIrEhvjH5098Pq0ZZP2ZnQZgsofDHpg0z8CyA1So8k9j4wMXgmISHaXbiReyVMM9xxCe74AGgCYlVBRZEwhz2p5alWUoW8mKdp+KHrYV64iSrKJI40U6oaFnN8JWiB3QnKqaWiJPbFvrosdvCZ1aUsyi3EZEDt6LegITsyXXK1HvTaPo2x0dMbpiHCw2SSyddp3yJJKkKSsCe3k4xExrXYPBFSMJewiTUnY0h7aQ9LyUrjOqvr5SXU2kTFBLoihCOdOn7y2WGkrUmhkVV/aSitcGZiroGMqNZhxKTwfcE6EMJ7WwgdRCTIavdYMj/82qaVk/07dARJcuWYBksBxPZfdqrLA75jh5JH/X/V/TKnhS+AmcI8rawCIRyl9qnSu6T1pCFDIUk0IxakIF0HkNobc0f1i2aDWGW+WzHbqYz6gfDowTt7U3g4mLZAdrNtG+dU8sYHnwzxQjUyKbfnV3b1gPZUthHfLZqloxgwfEOuTcXqANKQHUQkiWSgkge9vdoGA7WTp7ejfeB3gh9HAuBDrYGyGUXRNeAYlDYc2N1K3TZpmHhxasHh0R0tcE2DRDEtaucco6iqim5NdRMsOuFv5uuPbfoAQN4KKfIYohavbkYPiWmaRb5mSsZr7vlg5GBM6R6soShLF3BqIJw1rv5C2oxMe5y7iWaQO+GA5Uj5hM/1wXAa/b9Do39KdJshpGDCb7PSKGOHq4WBovyH/rURZviBeoWKgu4MkkiZ8eY2uptTwNJ0Bq7vA55mhQN5E79jVGhC1KRq7AJ0fxM88TmYqg424T9bLhv8+WKuq44FR2/2jMcOgnsGBfFY4pTWYOxTVcL5D73QdeATnuEbP4fH2AzPLuoNjouz4JvJZ/iplW4DDJ9A3x/C3hjcJ1OuqOZIQQVgyMEFDgoac/eKAKsOvIOUZ/MVPfk8wCm0w+WgSDianfULi3lsGAY/gEyqZHONvfLOsYsNxXnagiQ6BKbIJNoeNDo7C6a0zb6kjyKn8MEqVd1paSr7wH6dobcElHHvUK1J9PW8uJ88tTnBqAIQIndoOhUhk07w+SAVZhsX9XxbJzxn1j+xpJOgBbsdhVCeBhvwiZENlNkPKV6J4QR6uTzqz/JnjsZhEWsyt6nVUzGGx8zCJ2zbS/QhCj13Qtk66QVacXnFmUSfBwE1wXLwBIkEEC8wPIqQohqWWCFy5D1VZ2zezU+800zvPTGE+ZUnTbJaeNYIscedCvcb/rY1us/X2sW8jLqofk7ndDmxFA83oIDzarIwv3iNgHfv3Fifl9Ph9EQL8/1a7H0SNk+WwrUlFRIcnVuZ+Zf9Zfkf9U8Ev7SxAyKAjLR5BXOPDpr2GxzA5FlIVFiaZPJ4UML/grdQiPMSObNRbgAfH63BoIS9Zn2FXqTFyNWRyd/HVwCbgyFKAOg8jDoMazqw81foYbCh9gQzuHLol3d4B0Z5zhk4gmEq8jR8UA4cWPVYgo9NQt0X2JJQD9voXJFw0JuL/KJyHo9clRAydcfcohdB/Amt21AfH5TPdhPBSyaSU95epeOU23Ik/eeVACQt+8QIJ8hBIbFSycGPcjkC9ZqdfAuzSfNZlbRg4Y2eah2yIo5lVpZiL8Mh77biRcpMc5LZJljBp1v21eIWGmEmYFWT7UdYB/QXK2Kp/jlUlA2s5f8mHcsWJidABD0jW+M1xdAbtNWoL5yTgToFG+eE+3yYHqV+C8bu64+zLxVsCH9HFG0w0hjS7ozSX+KFZng==
+    configuration_id : 8448640002231098479
+    type : 1
+    generation_name : WD Presse-Papiers Multiple.exe
+    version :
+     major_version : 1
+    icon_filename : .\presse-papiers.ico
+    language : 1
+ elements :
+  identifier : 0x4c7fb0d100025500
+  elements :
+   -
+     name : pKeyboardAPI
+     identifier : 0x4c80c2ff000e5824
+     internal_properties : CAAAAAgAAAD9WdXJ9qMLFCN6xDewBrhWNxYOFq5vg5ujTDaJP/Aijma+IMy0UJCVjLYgmBjIsCDoaA==
+     physical_name : .\pKeyboardAPI.wdg
+     type : 7
+   -
+     name : pClipboardAPI
+     identifier : 0x4c7fb1ac000bae8c
+     internal_properties : CAAAAAgAAACIhvCsG0Do8/x30SCxOL+p+t25OZoJU2dKyJrXloaOUrYE+NSzUZ+imYN9ezu1TUONlQ==
+     physical_name : .\pClipboardAPI.wdg
+     type : 7
+   -
+     name : pMemoryAPI
+     identifier : 0x4c7fc644000e1fbf
+     internal_properties : CAAAAAgAAAA6EGKmBULq9fJJ3yKzO7mv+OW3L6WuW2en/88wsn2XWb8D+dOxU52gm4V/eTm3Q7UfJw==
+     physical_name : .\pMemoryAPI.wdg
+     type : 7
+   -
+     name : pWindowsAPI
+     identifier : 0x4c80f70e0010b404
+     internal_properties : CAAAAAgAAADQLggUk8hge8RPOYjJIouN2rkRyRkCCxerkvDPFxh8vBzm3v6bqfd6oZsF87Mt1cs1PQ==
+     physical_name : .\pWindowsAPI.wdg
+     type : 7
+   -
+     name : FEN_PopupSelectionFragment
+     identifier : 0x4c80f8680012f887
+     internal_properties : CAAAAAgAAADRLQkdqtdfEN+WcMOc5lTSs5L6YnrjR/+jxEbxd7jSFvY+oLzYdLxBeKIc5Kwk3Mw0PA==
+     physical_name : .\FEN_PopupSelectionFragment.wdw
+     type : 2
+   -
+     name : FEN_APropos
+     identifier : 0x4c8509dc001128f2
+     internal_properties : CAAAAAgAAADYtoCcK1DYg0zHoRBBrB8xij0JmTW+9XmzeK4RNRr61mKIdGgjIW/yKRONayulXVO9RQ==
+     physical_name : .\FEN_APropos.wdw
+     type : 2
+   -
+     name : FEN_VisuPressePapier
+     identifier : 0x4c7fb1720008ca08
+     internal_properties : CAAAAAgAAABr5SYXAipt6LbCE7J/LomuRIS+kG02tSECCKrpSU9EowAazFHYWhEYzsyna47sln3u
+     physical_name : .\FEN_VisuPressePapier.wdw
+     type : 2
+   -
+     name : pAPI
+     identifier : 0x4c80c32c00110617
+     internal_properties : CAAAAAgAAACf+/erGEXt/knEuglKtwr0zVrAgELzCwOvWaUaukXRzzn7y4EaKnb7JhCKdj6yTkKKig==
+     physical_name : .\pAPI.wdg
+     type : 7
+   -
+     name : WinDevMessageBox
+     identifier : 0x48298da00071ec99
+     internal_properties : CAAAAAgAAACf+/erGEXt/k36Zg3mwq7Bz+yqwvQdba2nN+sUDOOrfY9BeuKMtKzdKhCKdj6yTkKKig==
+     physical_name : .\WinDevMessageBox.WDW
+     type : 2
+   -
+     name : WinDevDialogBox
+     identifier : 0x48298da20079f208
+     internal_properties : CAAAAAgAAAABc7/rNJFRAiaO0RxejAlJvDSkeinaIx0ENhpZ2fVo16zPKVzCTt9WKGSvyOsPqBME
+     physical_name : .\WinDevDialogBox.WDW
+     type : 2
+  other_elements : []
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - fr-FR
+ wd_style_sheet : .\WD Presse Papier Multiple.sty
+ wb_style_sheet : .\WD Presse Papier Multiple.wws
+ code_elements :
+  internal_properties : CAAAAAgAAACj+mevthnL+rDYzBFe/gv7Fh8xdYw/VdFC4c1oTKpiVysDWRlt9k6Ctlwjb2vbpGBQAFsdkPsmB0tVigmIDrQ=
+  type_code : 0
+  p_codes :
+   -
+     code : |1-
+      CONSTANT
+      	ID_RACCOURCI_COLLAGE_MULTIPLE = 1000
+      	APERCU_TEXTE = 1
+      	APERCU_IMAGE = 2
+      	CLASSE_FENETRE_WINDEV = "WinDevObject"
+      FIN
+      
+      // Structure contenant un format d'un élément de presse-papiers
+      ST_ELEM_PRESSEPAPIERS_FORMAT est une structure
+      	nFormat est un entier
+      	sNomFormat est une chaine
+      	nTaille est un entier
+      	bufContenu est un buffer	
+      FIN
+      
+      // Structure contenant un élément de presse-papiers (tous les formats)
+      ST_ELEM_PRESSEPAPIERS est une structure
+      	tabElemFormat est un tableau de ST_ELEM_PRESSEPAPIERS_FORMAT
+      	bufApercu est un buffer
+      	nTypeApercu est un entier
+      FIN
+      
+      // Tableau des éléments de presse-papiers
+      gtabElemPressePapiers est un tableau de ST_ELEM_PRESSEPAPIERS
+      
+      // Désérialise le presse-papiers
+      gsRepSauvegarde est une chaine = fRepDonnéesUtilisateur()+["\"]+<§@00000000000000000000§>
+      gsFichierSauvegarde est une chaine = gsRepSauvegarde+<§@00000000000000000001§>
+      si ffichierexiste(gsFIchierSauvegarde) ALORS
+      	QUAND EXCEPTION DANS
+      		LOCAL
+      			bufSauvegarde est un buffer = repete(caract(0),ftaille(gsFichierSauvegarde))
+      			nFic est un entier = fouvre(gsFichierSauvegarde,foLecture)
+      		fLit(nFic,fTaille(gsFichierSauvegarde),&bufSauvegarde)
+      		fFerme(nFic)
+      		Désérialise(gtabElemPressePapiers,bufSauvegarde,psdBinaire)
+      	FAIRE
+      		fSupprime(gsFichierSauvegarde)
+      	FIN
+      FIN
+     type : 196608
+   -
+     code : |1-
+      
+      si frepcree(gsRepSauvegarde) alors
+      	bufSauvegarde est un buffer
+      	Sérialise(gtabElemPressePapiers,bufSauvegarde,psdBinaire)
+      	nFic est un entier = fCrée(gsFichierSauvegarde)
+      	si nFic>0 alors
+      		nTaille est un entier = taille(bufSauvegarde)
+      		fecrit(nFic,&bufSauvegarde,nTaille)
+      		fFerme(nFic)
+      	fin
+      fin
+     type : 196610
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD Presse Papier Multiple
+     identifier : 0x4c7fb0d100035520
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : WD Presse-Papiers Multiple
+     index : 0
+   -
+     text :
+      fr-FR : \Presse-Papiers.bin
+     index : 1
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==
